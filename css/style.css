@@ -186,7 +186,11 @@ p {
     padding-left: 0
 }
 
-
+.section {
+    padding: 180px 0;
+    position: relative;
+    display: block;
+}
 
 .white {
     background-color: #ffffff;

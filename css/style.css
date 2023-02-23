@@ -299,7 +299,7 @@ mark {
 
 a:focus,
 a:hover {
-    color: #ad0000;
+    color: #ad00ab;
 }
 
 .intro2 i {
@@ -308,8 +308,8 @@ a:hover {
 }
 
 .intro2 {
-    background-color: #ad0000;
-    border: 2px solid #ad0000;
+    background-color: #ad00ab;
+    border: 2px solid #ad00ab;
     border-radius: 5px;
     color: #ffffff;
     font-style: italic;
@@ -357,7 +357,7 @@ a:hover {
 }
 
 .navbar-inverse {
-    background-color: #ad0000;
+    background-color: #ad00ab;
     border: 0;
 }
 

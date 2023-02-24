@@ -38,24 +38,49 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+
+<!-- HTML MODIFICAÇÃO -->
+
+<link rel="stylesheet" href="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-button.css">
+<a id="robbu-whatsapp-button" target="_blank" href="https://api.whatsapp.com/send?phone=47992549919&text=Ol%C3%A1%20%20eu%20gostaria%20de%20adquirir%20seu%20produto.">
+  <div class="rwb-tooltip">Fale conosco</div>
+  <img src="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-icon.svg">
+</a>
+
 </head>
 
 <html>
 <head>
-  <title>Estudos JavaScript</title>
-</head>
-  
-<body oncontextmenu="return aviso()">
- 
-<script type="text/javascript">
-  function aviso(){
-    window.alert("Botão direito não permitido.");
-    return false;
-  }
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Bloquear cópia de conteúdo</title>
+  
+<script>
+function mensagem(){
+    alert('Conteudo bloqueado!');
+    return false;
+}
+  
+function bloquearCopia(Event){
+    var Event = Event ? Event : window.event;
+    var tecla = (Event.keyCode) ? Event.keyCode : Event.which;
+    if(tecla == 17){
+        mensagem();
+    }
+}
 </script>
- 
+
+<br />
 </body>
 </html>
+  
+<script>
+    document.onkeypress = bloquearCopia;
+    document.onkeydown = bloquearCopia;
+    document.oncontextmenu = mensagem;
+</script>
+</body>
+</html>
+
 
 <body>
 
@@ -69,6 +94,7 @@
                     <div class="col-md-12">
                         <div class="big-title text-center">
 						    <iframe width="1300" height="315" src="images/logo.png" frameborder="0" allowfullscreen=""></iframe>
+							<div class="breaking-cont snipcss-3-3-7"> <ul class="webticker snipcss-4-7-8"> <li class="snipcss-5-8-13 active fadeIn" style=""> <h4 class="snipcss-6-13-14"> <marquee><span style="display: none" class="bdaia-io bdaia-io-chevron_right snipcss-8-15-16"></span>Obrigado por se juntar à Uniplaygames. Nós construímos a Loja por conta da HISTÓRIA POR TRÁS. Nós adoraríamos saber os motivos que atraíram você para nossa loja. O seu feedback é valiosíssimo para que possamos seguir entregando exatamente o que os clientes desejam.</marquee> </h4> </li> </ul> </div>
                             <h1>GUIA PARA NOVOS MEMBROS</h1>
                             <p class="lead">Somente faça sua doação se estiver de acordo com os itens listados.</p>
                         </div>
@@ -335,7 +361,6 @@
                             
                             </div>
                         </div>
-                        
 
                     </section>
                    
@@ -349,6 +374,7 @@
         <!-- // end container -->
 
     </div>
+	
     <!-- end wrapper -->
 
     <script src="js/jquery.min.js"></script>
@@ -366,7 +392,7 @@
     <script src="js/syntax-highlighter/scripts/shBrushXml.js"></script>
     <script src="js/syntax-highlighter/scripts/shBrushCss.js"></script>
     <script src="js/syntax-highlighter/scripts/shBrushJScript.js"></script>
-
+    <div style="text-align: center;"><br /><span =""   style="font-family:&quot;;font-size:16px;">Copyright © 2018 - 2023 Uniplaygames. All Rights Reserved.</span></div><br />
 </body>
 
 </html>
